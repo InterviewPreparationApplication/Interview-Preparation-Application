@@ -1,0 +1,64 @@
+.LoginBox {
+  height: 100%;
+  width: 100%; /* Take full width on small screens */
+  max-width: 400px; /* Set a maximum width for larger screens */
+  margin: 100px auto 10px;  /* Center the box horizontally */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(255, 162, 0);
+  box-sizing: border-box; /* Use border-box to include padding in width and height */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+.maroon-button {
+background-color: maroon;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px; /* Adjust the radius for rounded corners */
+cursor: pointer;
+font-size: 16px;
+}
+
+/* Hover effect for better user experience */
+.maroon-button:hover {
+background-color: rgb(211, 6, 6);
+}
+
+
+
+.field {
+margin-bottom: 15px;
+}
+
+.field label {
+display: block;
+margin-bottom: 5px;
+font-size: 16px;
+}
+
+.field input {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+width: 100%;
+}
+
+.field input:focus {
+border-color: #007bff;
+}
+
+.field checkbox {
+margin-right: 5px;
+}
+@media (max-width: 600px) {
+  .LoginBox {
+    padding: 10px; /* Decrease padding on small screens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+

@@ -1,0 +1,86 @@
+/* .experts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .experts-container h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .experts-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experts-container ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experts-container ul li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .expert-image {
+    width: 75px; 
+    height: 75px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  } 
+  
+  
+  */
+
+
+
+  .experts-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .experts-container h5 {
+    text-align: center;
+    color: #333;
+    font-family: 'Protest Riot', sans-serif;
+  }
+  
+  .experts-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox to display experts side by side */
+    justify-content: space-between; /* Distribute space between experts */
+  }
+  
+  .experts-container ul li {
+    width: 30%; /* Adjust width as needed to fit all experts within the container */
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experts-container ul li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .expert-image {
+    width: 99%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .experts-container h3 {
+    text-align: center;
+    color: #325b5d;
+    font-family: 'Protest Riot', sans-serif;
+  }
+
+

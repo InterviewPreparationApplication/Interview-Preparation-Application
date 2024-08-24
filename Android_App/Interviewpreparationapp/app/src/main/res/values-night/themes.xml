@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Interviewpreparationapp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#F7F6F8</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorSecondary">#0A0909</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">#15903A3A</item>
+
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

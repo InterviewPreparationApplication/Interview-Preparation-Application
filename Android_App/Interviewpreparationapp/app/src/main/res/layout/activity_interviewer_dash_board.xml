@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InterviewerDashBoard">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/interviewertoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/interviewrequestid"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:elevation="25sp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="205dp"
+        android:backgroundTint="#D89C23"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Interview Request"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="request for interview"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/interviewrequest"
+            android:layout_marginLeft="180dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/givefeedbackid"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:elevation="25sp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#00B8D4"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Feedback"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="give feedback to candidate"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/feedback"
+            android:layout_marginLeft="180dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

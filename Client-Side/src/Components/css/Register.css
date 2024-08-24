@@ -1,0 +1,54 @@
+span {
+  font-size: 25px; /* Font size for error messages */
+  padding: 3px;
+  color: red;
+  display: block; /* Ensures error messages are on their own line */
+  margin-top: 4px; /* Top margin for spacing */
+}
+
+/* Style for input validation */
+input:invalid {
+  border: 2px solid rgb(255, 31, 31); /* Red border for invalid input */
+}
+
+input:valid {
+  border: 2px solid black; /* Black border for valid input */
+}
+
+  label {
+    color: rgb(0, 0, 0); /* Black color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 8px; /* Bottom margin for spacing */
+    display: block; /* Ensures labels are on their own line */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  /* Style for labels when the associated input is focused */
+  label:focus-within {
+    color: rgb(60, 100, 200); /* Change color on focus */
+  }
+  
+  /* Style for labels when the associated input has content */
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-20px); /* Move label up when there is content in the input */
+    font-size: 14px; /* Adjust font size when there is content in the input */
+  }
+  
+  /* Style for error messages */
+  span {
+    font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: block;
+  margin-top: 12px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px; /* Adjust the gap between the input boxes */
+  }
+
+  .LoginBox > div {
+    margin-bottom: 5px; /* Add some bottom margin for spacing between rows */
+  }

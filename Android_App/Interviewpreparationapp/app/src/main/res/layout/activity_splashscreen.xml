@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/splashlogo"
+        android:layout_width="220sp"
+        android:layout_height="220sp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splashlogo" />
+
+    <TextView
+        android:id="@+id/interviewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="460sp"
+        android:fontFamily="@font/bungee"
+        android:text="Interview"
+        android:textColor="#0E0E0E"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/preparationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="515sp"
+        android:fontFamily="@font/bungee"
+        android:text="preparation"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

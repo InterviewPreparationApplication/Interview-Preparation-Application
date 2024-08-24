@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Interviewpreparationapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".VcafterGobtInterviwerside"
+            android:exported="false" />
+        <activity
+            android:name=".VCInterviwerafterclickingo"
+            android:exported="false" />
+        <activity
+            android:name=".VideoCallActivityUserside"
+            android:exported="false" />
+        <activity
+            android:name=".VideoCallActivityInterviwerside"
+            android:exported="false" />
+        <activity
+            android:name=".InterviwerinfodataAdmin"
+            android:exported="false"
+            android:parentActivityName=".Admininterviewerinfo" />
+        <activity
+            android:name=".Candidateinfodataadmin"
+            android:exported="false"
+            android:parentActivityName=".Admincandidateinfo" />
+        <activity
+            android:name=".MysqlInterviewQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".CppInterviewQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbacklistActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".InterviwerEditprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admindeleteinterviwer"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Admindeletecandidate"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Adminaddinterviewer"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Adminreports"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Admininterviewerinfo"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Admincandidateinfo"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Adminprofile"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".InterviewerProfile"
+            android:exported="false"
+            android:parentActivityName=".InterviewerDashBoard" />
+        <activity
+            android:name=".Interviewerdashboardfeedback"
+            android:exported="false"
+            android:parentActivityName=".InterviewerDashBoard" />
+        <activity
+            android:name=".InterviewerDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".InterviewerRegistrationpage"
+            android:exported="false" />
+        <activity
+            android:name=".InterviewerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaInterViewQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".InterviewrequestActivity"
+            android:exported="false"
+            android:parentActivityName=".InterviewerDashBoard" />
+        <activity
+            android:name=".Interviewegiverprofile"
+            android:exported="false" />
+        <activity
+            android:name=".InterViewgiverHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InterviewerListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registrationpage"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

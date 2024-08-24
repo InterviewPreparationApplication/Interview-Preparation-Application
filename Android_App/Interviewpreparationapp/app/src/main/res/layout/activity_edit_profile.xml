@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".EditProfileActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/black_han_sans"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/editfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Firstname"/>
+
+        <EditText
+            android:id="@+id/editlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lastname"/>
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+        <EditText
+            android:id="@+id/editaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"/>
+
+        <EditText
+            android:id="@+id/editqualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification"/>
+<!--        <EditText-->
+<!--            android:id="@+id/editmno"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mobile"/>-->
+
+        <Button
+            android:id="@+id/editbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Save"/>
+
+    </LinearLayout>
+</LinearLayout>

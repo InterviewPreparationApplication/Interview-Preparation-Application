@@ -1,0 +1,15 @@
+/* DemoQuestion.css */
+
+.demo-question-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  /* Add more styling as needed */
+  

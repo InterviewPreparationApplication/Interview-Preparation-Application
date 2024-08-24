@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="Fragments.PracticeQuestionFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/javacardview"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="35dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#0277BD">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/javaimg"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Interview Question"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/black_han_sans"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prepare java questions"
+            android:layout_gravity="center"
+            android:layout_marginRight="4.5dp"
+            android:fontFamily="@font/black_han_sans"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cppcardview"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="35dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#FFD180">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cppimg"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++ Interview Question"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/black_han_sans"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prepare cpp questions"
+            android:layout_gravity="center"
+            android:layout_marginRight="4.5dp"
+            android:fontFamily="@font/black_han_sans"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mysqlcardview"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="35dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#FF9E80">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mysqlimg"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mysql Interview Question"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/black_han_sans"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prepare mysql questions"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="4.5dp"
+            android:fontFamily="@font/black_han_sans"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+/* UserProfile.css */
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile-details p {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Custom CSS for styling the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  /* Center items vertically */
+  margin-bottom: 10px;
+  /* Add margin at the bottom for spacing */
+}
+
+/* Custom CSS for styling checkboxes */
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  /* Add margin between checkboxes */
+}
+
+.custom-checkbox:checked {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.custom-checkbox:checked::before {
+  content: '\2713';
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

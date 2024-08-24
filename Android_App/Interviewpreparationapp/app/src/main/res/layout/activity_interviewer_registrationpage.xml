@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterviewerRegistrationpage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:elevation="25sp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="22dp"
+        android:layout_gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:text="Interviwer Sign Up"
+            android:layout_marginStart="85dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/interviewerfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:inputType="text"
+            android:layout_marginTop="55dp"/>
+
+        <EditText
+            android:id="@+id/interviewerlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:layout_marginTop="100dp"/>
+
+        <EditText
+            android:id="@+id/intervieweraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="text"
+            android:layout_marginTop="145dp"/>
+
+        <EditText
+            android:id="@+id/interviewerdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DOB"
+            android:focusable="false"
+            android:layout_marginTop="190dp"/>
+
+        <EditText
+            android:id="@+id/interviewerage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="text"
+            android:layout_marginTop="230dp"/>
+
+        <EditText
+            android:id="@+id/interviewermobno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:layout_marginTop="275dp"/>
+
+        <EditText
+            android:id="@+id/interviewerQualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Qualification"
+            android:inputType="text"
+            android:layout_marginTop="315dp"/>
+
+
+        <EditText
+            android:id="@+id/interviewerworkposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Work Position"
+            android:inputType="text"
+            android:layout_marginTop="355dp"/>
+
+
+        <EditText
+            android:id="@+id/intervieweremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="400dp"/>
+
+        <EditText
+            android:id="@+id/interPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="445dp"/>
+
+
+        <Button
+            android:id="@+id/interviewerRegisterbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2F88ED"
+            android:text="Register"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="125dp"/>
+
+
+        <TextView
+            android:id="@+id/intervieweralreadyaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="75dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

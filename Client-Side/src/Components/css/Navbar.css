@@ -1,0 +1,99 @@
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(242, 153, 9);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    flex:1;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    transition: 0.3 ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #eff0f0;
+}
+
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color:whitesmoke;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#mobile{
+    display: none;
+}
+
+#mobile i{
+color: white;
+align-items: center;
+}
+
+#logo{
+    width: 150px; /* Set the width of the logo */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Make the image a block element */
+  margin: 10px;
+  position: absolute; /* Set the position property to absolute */
+    top: 10px; /* Set the distance from the top edge */
+    left: 10px;
+}
+
+@media screen and (max-width: 769px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 65px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: rgb(252, 193, 75);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 10px 0 0 10px; 
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile i{
+    font-size: 24px;
+    cursor: pointer;
+    }
+}

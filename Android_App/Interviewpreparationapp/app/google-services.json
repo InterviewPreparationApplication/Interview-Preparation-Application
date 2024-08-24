@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "835965831858",
+    "firebase_url": "https://interviewpreparationapp-b8504-default-rtdb.firebaseio.com",
+    "project_id": "interviewpreparationapp-b8504",
+    "storage_bucket": "interviewpreparationapp-b8504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835965831858:android:450e3f94583946386357ab",
+        "android_client_info": {
+          "package_name": "com.dmc.interviewpreparationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUC6M2nVXpIuR-6onWrqGx-yq_mLfXHzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

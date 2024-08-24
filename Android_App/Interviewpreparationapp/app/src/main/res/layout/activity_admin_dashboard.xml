@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F2FA"
+    tools:context=".AdminDashboard">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/candidateinfoid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="65dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/candidateadmin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="candidate info"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+           android:layout_marginLeft="20dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/interviwerinfoid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="65dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/interviewerinfoadmin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Interviewer info"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="12dp"/>
+
+    </androidx.cardview.widget.CardView>
+<!--
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/reportsid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="250dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/reportadmin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Reports"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="45dp"/>
+
+    </androidx.cardview.widget.CardView>
+-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addinterviwerid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="250dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/addinterviwer"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Add interviwer"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="18dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deletecandidateid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="250dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/deletecandidateadmin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Delete candidate"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deleteinterviwerid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="435dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/deleteintervieweradmin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/black_han_sans"
+            android:text="Delete interviwer"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
